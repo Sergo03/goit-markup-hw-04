@@ -124,18 +124,19 @@ img {
   height: 12px;
   border: none;
 }
-.icon-contacts-envelope:hover {
-  fill: var(--secondary-text-color);
-}
+
 .icon-contacts-smartphone {
   margin-right: 10px;
   width: 10px;
   height: 16px;
 }
-.icon-contacts-smartphone:hover {
+
+.link:hover .icon-contacts-envelope {
   fill: var(--secondary-text-color);
 }
-
+.link:hover .icon-contacts-smartphone {
+  fill: var(--secondary-text-color);
+}
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--secondary-text-color);
@@ -392,6 +393,38 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+}
+
+.icon-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+/* .icon-team-item {
+  margin-right: 10px;
+} */
+.icon-istagram {
+  width: 20px;
+  height: 20px;
+}
+.icon-twitter {
+  width: 20px;
+  height: 20px;
+}
+.icon-facebook {
+  width: 20px;
+  height: 20px;
+}
+.icon-linkedin {
+  width: 20px;
+  height: 20px;
+}
+.social-link {
+  display: block;
+  background-color: orange;
+  border-radius: 50%;
 }
 
 /* clients */
